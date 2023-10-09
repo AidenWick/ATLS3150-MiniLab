@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic html5</title>
+    <link rel="stylesheet" href="../css/semantic.css">
+
 </head>
 <body>
+    <div class = "container">
     <!--main head of page, only use h1 once per page-->
     <header>
         <h1>Proper use of html5 semantic mark up</h1>
     </header>
+    <nav>
+        <h2 class="sr-only">Main Navigation</h2>
+        <ul>
+            <li><a href="#latin-dummy">LINK 1</a></li>
+            <li><a href="#">LINK 2</a></li>
+            <li><a href="#">LINK 3</a></li>
+        </ul>
+    </nav>
     <!--main content of the page-->
     <main>
         <!--grouping content together-->
@@ -27,5 +38,6 @@
             </aside>
         </section>
     </main>
+    </div> <!--Close Div container-->
 </body>
 </html>
